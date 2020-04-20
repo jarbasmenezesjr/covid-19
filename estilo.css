@@ -119,15 +119,14 @@ li a:hover {
 }
 
 .contato {
-	display: display;
-	width: 800px;
-	height: 900px;	
-	align-items: center;
-	text-align: center;
-	margin-left: 300px;
-	margin-top: 40px;  
-    padding: 20px;  
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
+  display: grid;    
+  grid-template-columns: auto;
+  margin-top: 40px;  
+  padding: 20px;  
+  margin-top: 40px;  
+  padding: 20px;  
+  align-items: justify;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 #contato {
@@ -135,7 +134,7 @@ li a:hover {
 	width: 100%;	
     display: block;
     margin: 0 auto;
-	align-items: center;
+	align-items: justify;
 	border-style: none;
 }
 
@@ -163,4 +162,20 @@ li a:hover {
   padding: 20px;  
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.2);
   align-items: left;
+}
+
+form {
+	margin: 0 auto;
+	align-items: center;
+}
+
+input {
+	margin: 0 auto;
+	width: 400 px;
+	align-items: center;
+}
+
+label {
+	margin: 0 auto;
+	align-items: center;
 }
