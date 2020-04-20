@@ -2,6 +2,7 @@
 <HTML>
 <HEAD>
 <link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="shortcut icon" type="image/x-icon" href="covid.ico">
 <TITLE>
 COVID-19
 </TITLE>
@@ -12,9 +13,9 @@ COVID-19
 	<nav class="navbar">
 	<ul>
         <li><a href="#">Home</a></li>
-		<li><a href="#sobre">Sobre</a></li>
-		<li><a href="#contato">Contato</a></li>
-        <li><a href="#saibamais">Saiba Mais</a></li>  
+		<li><a href="sobre.html">Sobre</a></li>
+		<li><a href="contato.html">Contato</a></li>
+        <li><a href="saibamais.html">Saiba Mais</a></li> 
 	</ul>
     </nav>
  </div>
@@ -24,15 +25,17 @@ COVID-19
 <div class="container">
 	  <article class="item">
 		<h3>Coronavírus - Record News</h3>
-		<iframe src="https://www.youtube.com/embed/WbcyCf_AjOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+		<iframe id="youtube" src="https://www.youtube.com/embed/WbcyCf_AjOo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+		<small>https://www.youtube.com/watch?v=WbcyCf_AjOo&feature=emb_title</small>
 	  </article>
 	  <article class="item">
-		<h3>CNN BRASIL - AO VIVO</h3>
-		<iframe src="https://www.youtube.com/embed/UTzKUSaU_Yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<h3>Nise Yamaguchi defende uso da hidroxicloroquina</h3>
+		<iframe id="youtube" src="https://www.youtube.com/embed/k_4iWYLDKJY" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<small>https://www.youtube.com/watch?v=k_4iWYLDKJY&feature=emb_title</small>
 	  </article>
 	  <article class="item">
 		<h3>Combate à Pandemia do Coronavírus</h3>
-		<video width="320" height="240" controls> 
+		<video controls> 
 			<source src="http://video-rvd-maestro.rnp.br:80/vod/9ada066baa7b7c1f80ad380220f73f240caa64e25e2c2feff0ef8ee2ffaab467_1752/1587214771165.mp4?scn_mac=ZTm3W6nvUEWMcU_cgwiGKXfNm_A_kuv6Bpr4hxQ0Ep9_aTB-khS-d-6vOUYxxRt-qVKpac6lWtQuhFG1nQAQ_3vlUpdBSirFRdr4T76n5yly3lKwzXgcYkaLEnapyGA4iXyqGUJfQdOWo5Opo1Q5Z_bUabFyQiFIMRQ4tSgs7HQSKQjVCtO50WsFRp2kTPEv5uYj_3rIElb7pOy6xDS0pYyg9hToyAIrZewxJTxLM4dSJhFbdfaRPoCi2O0ghm3XfRFtr0vOS-DEnOzVsRHNZAoPqqdS1ISFvjhpl4kWcUX2Cw0-ScjykzeaZwAE6eyrZ1eBeBIKMha56wx-kYoCcw&amp;scn_cla=0&amp;scn_tmo=0&amp;scn_src=aHR0cDovL3ZpZGVvLXJ2ZC1yZXBvc2l0b3Jpby5ybnAuYnI6ODAvdm9kLzlhZGEwNjZiYWE3YjdjMWY4MGFkMzgwMjIwZjczZjI0MGNhYTY0ZTI1ZTJjMmZlZmYwZWY4ZWUyZmZhYWI0NjdfMTc1Mi8xNTg3MjE0NzcxMTY1Lm1wNA" type="video/mp4">
 		</video>
 		<small> http://play.ebc.com.br/programas/130/episodios/1930/ciencia-e-tudo </small>
@@ -40,12 +43,17 @@ COVID-19
 	  <article class="item">
 		<h3>Quais são os sintomas do novo coronavírus?</h3>
 		<p>Os sintomas mais comuns do coronavírus são febre, cansaço e tosse seca. Algumas pessoas têm dores no corpo, congestão nasal, coriza, dor de garganta ou diarreia. Uma em cada seis pessoas desenvolve dificuldade para respirar. Outras não desenvolvem sintoma nenhum, segundo a OMS.</p>
+		<p>Pessoas mais velhas e com condições de saúde como pressão alta, diabetes e doenças cardiovasculares têm risco aumentado de desenvolver um quadro grave da doença.</p>
+		<p>No caso do novo coronavírus, ainda não há relato de infecção sintomática em crianças ou adolescentes.</p>
 		<small> https://www1.folha.uol.com.br/equilibrioesaude/2020/03/quais-sao-os-sintomas-do-novo-coronavirus.shtml </small>
 	  </article>
 	  <article class="item">
-		<h3>Brasil tem 2.347 mortes e 36.599 casos de coronavírus, diz ministério</h3>
-		<img src="https://s2.glbimg.com/GQccZcraQyzf1qpuD1ehI5gDCm0=/0x0:650x933/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/R/P/TdlCQDQMi4Numey99Bpw/mortes-7dias-evolucao-covid-br.png">
-		<small>https://g1.globo.com/bemestar/coronavirus/noticia/2020/04/18/brasil-tem-2352-mortes-e-36599-casos-de-coronavirus-diz-ministerio.ghtml</small>
+		<h3>O contra-ataque ao coronavírus – podcast</h3>
+		<p>Qual a lógica por trás de medidas como a de isolamento social na contenção do novo coronavírus no Brasil e no mundo? Nós explicamos no Detetives da SAÚDE</p>
+		<audio controls>
+			<source src="https://abrilsaude.files.wordpress.com/2020/03/episc3b3dio-final-1.mp3" type="audio/mpeg">
+		</audio>
+		<small>https://saude.abril.com.br/podcast/o-contra-ataque-ao-coronavirus-podcast/</small>
 	  </article>
 	  <article class="item">
 		<h3>Coronavírus</h3>
@@ -57,7 +65,7 @@ COVID-19
 </div>
 
 <footer class="rodape">
-	<p>© Jarbas Junior 2020</p>
+	<h3>© Jarbas Junior - 2020</h3>
 </footer>
 </BODY>
 <HTML>
